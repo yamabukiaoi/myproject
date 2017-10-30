@@ -1,0 +1,135 @@
+*{
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	}
+html {
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+	font-size:10px;
+}
+body {
+	font-size:0.3rem;
+	margin: 0;
+	font-family:"苹方","微软雅黑","宋体" !important;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+.lf{float:left;}
+.rt{float:right;}
+img{
+	vertical-align:middle;
+	border:0;
+	width:100%;
+}
+body,ul,ol,dl,dd,p,h1,h2,h3,h4,h5,h6{
+	padding:0;
+	margin:0;
+	-ms-list-style:none;
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	color:#666;
+}
+a:visited{
+	text-decoration:none !important;
+	color:#666;
+}
+a:hover{
+	text-decoration: none !important;
+	color:#666;
+}
+a:link{
+	text-decoration: none !important;
+	color:#666;
+}
+a:active{
+	text-decoration: none !important;
+	color:#666;
+}
+.flex{display:flex;}
+.flexCol{flex-direction:column;}
+.fw{font-weight:bold;}
+.f36{font-size:0.36rem !important;}
+.f34{font-size:0.34rem !important;}
+.f32{font-size:0.32rem !important;}
+.f30{font-size:0.3rem !important;}
+.f28{font-size:0.28rem !important;}
+.f26{font-size:0.26rem !important;}
+.f24{font-size:0.24rem !important;}
+.f16{font-size:0.16rem !important;}
+.f15{font-size:0.15rem !important;}
+.f14{font-size:0.14rem !important;}
+.f12{font-size:0.14rem !important;}
+.f11{font-size:0.11rem !important;}
+.f10{font-size:0.1rem !important;}
+.c999{color:#999 !important;}
+.c666{color:#666 !important;}
+.c333{color:#333 !important;}
+.c000{color:#000 !important;}
+.c555{color:#555 !important;}
+button{
+	font-size:0.36rem;
+}
+.btn-primary-hover{
+	color:rgba(255, 255, 255, 0.6) !important;
+	background:#179b16 !important;
+}
+.btn-default-hover{
+	color:rgba(0,0,0,0.6) !important;
+	background:#dedede !important;
+}
+.btn-cityPartner-hover{
+	color:rgba(255,255,255,0.6) !important;
+	background:#df8300 !important;
+}
+button[data-type='primary'],button[data-type='default'],button[data-type='config']{
+	border:0;
+	outline:0;
+	border-radius:0.06rem;
+}
+button[data-type='primary']{
+	color:#fff;
+	background:#09BA07;
+}
+button[data-type='default']{
+	background:#fff;
+	color:#888;
+	border:0.01rem solid #d9d9d9;
+}
+button[data-type='config']{
+	border:0.01rem solid #09BB07;
+	color:#09BB07;
+	background:#fff;
+}
+/*zzp*/
+.clearfix{overflow:auto;_height:1%}
+span.space30{
+	display:inline-block;
+	width:0.3rem;
+}
+.text-center{
+	text-align:center;
+}

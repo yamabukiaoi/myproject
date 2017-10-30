@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/main.css">
+	<style>
+		.trap{
+			width:100px;
+			height:200px;
+			border:1px solid #ccc;
+		}
+	</style>
+</head>
+<body>
+	<div class="background" id="background">
+	
+		<div class="character" id="character" style="transform: translate({{position.x}}px,{{position.y}}px)">
+			<div id="character_hp" class="character-hp">
+				<div style="background:red;height:100%;width:${ character._hp / character._maxhp * 100 }%;"></div>
+			</div>
+		</div>
+		<div class="trap"></div>
+	</div>
+	<script src="js/shiv.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/createHero.js"></script>
+</body>
+</html>
